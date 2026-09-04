@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Lazania - Wyslij zdjecia</title>
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icons/icon.svg" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>📷 Lazania</h1>
+    <p>Wysylaj zdjecia z telefonu na komputer przez WiFi</p>
+  </header>
+
+  <main>
+    <div id="status-banner"></div>
+
+    <div class="actions">
+      <button class="btn primary" id="pick-camera-btn" type="button">
+        <span class="icon">📸</span>
+        <span>Zrob zdjecie</span>
+      </button>
+      <button class="btn" id="pick-gallery-btn" type="button">
+        <span class="icon">🖼️</span>
+        <span>Z galerii</span>
+      </button>
+    </div>
+
+    <input type="file" id="camera-input" accept="image/*" capture="environment" />
+    <input type="file" id="gallery-input" accept="image/*" multiple />
+
+    <div id="queue"></div>
+
+    <div id="progress-wrap"><div id="progress-bar"></div></div>
+
+    <button id="send-btn" type="button">Wyslij zdjecia</button>
+  </main>
+
+  <footer>
+    Zdjecia trafiaja bezposrednio na komputer w tej samej sieci WiFi.<br />
+    Nic nie jest wysylane do internetu.
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
