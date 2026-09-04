@@ -1,7 +1,7 @@
 {
   "name": "PhotoBeam - Wyslij zdjecia",
   "short_name": "PhotoBeam",
-  "description": "Przesylanie zdjec z telefonu na komputer przez WiFi",
+  "description": "Przesylanie zdjec i filmow z telefonu na komputer przez WiFi",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

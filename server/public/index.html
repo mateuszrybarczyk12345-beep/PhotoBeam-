@@ -15,7 +15,11 @@
 <body>
   <header>
     <h1>📷 PhotoBeam</h1>
-    <p>Wysylaj zdjecia z telefonu na komputer przez WiFi</p>
+    <p>Wysylaj zdjecia i filmy z telefonu na komputer przez WiFi</p>
+    <div id="conn-status" class="conn-status">
+      <span id="conn-dot" class="conn-dot"></span>
+      <span id="conn-text">Laczenie...</span>
+    </div>
   </header>
 
   <main>
@@ -24,7 +28,11 @@
     <div class="actions">
       <button class="btn primary" id="pick-camera-btn" type="button">
         <span class="icon">📸</span>
-        <span>Zrob zdjecie</span>
+        <span>Zdjecie</span>
+      </button>
+      <button class="btn" id="pick-video-btn" type="button">
+        <span class="icon">🎥</span>
+        <span>Nagraj film</span>
       </button>
       <button class="btn" id="pick-gallery-btn" type="button">
         <span class="icon">🖼️</span>
@@ -33,17 +41,18 @@
     </div>
 
     <input type="file" id="camera-input" accept="image/*" capture="environment" />
-    <input type="file" id="gallery-input" accept="image/*" multiple />
+    <input type="file" id="video-input" accept="video/*" capture="environment" />
+    <input type="file" id="gallery-input" accept="image/*,video/*" multiple />
 
     <div id="queue"></div>
 
     <div id="progress-wrap"><div id="progress-bar"></div></div>
 
-    <button id="send-btn" type="button">Wyslij zdjecia</button>
+    <button id="send-btn" type="button">Wyslij</button>
   </main>
 
   <footer>
-    Zdjecia trafiaja bezposrednio na komputer w tej samej sieci WiFi.<br />
+    Zdjecia i filmy trafiaja bezposrednio na komputer w tej samej sieci WiFi.<br />
     Nic nie jest wysylane do internetu.
   </footer>
 

@@ -1,9 +1,9 @@
-# PhotoBeam 📷 – zdjecia z telefonu na komputer przez WiFi
+# PhotoBeam 📷 – zdjecia i filmy z telefonu na komputer przez WiFi
 
 Prosta aplikacja: telefon (dowolny – dziala jako strona/PWA w przegladarce,
-bez Google Play/App Store) wysyla zdjecia bezposrednio do lokalnego serwera
-uruchomionego na Twoim komputerze, o ile oba urzadzenia sa w tej samej
-sieci WiFi. Zadne zdjecie nie wychodzi do internetu.
+bez Google Play/App Store) wysyla zdjecia i filmy bezposrednio do lokalnego
+serwera uruchomionego na Twoim komputerze, o ile oba urzadzenia sa w tej
+samej sieci WiFi. Zadien plik nie wychodzi do internetu.
 
 ## Jak to dziala
 
@@ -12,11 +12,14 @@ sieci WiFi. Zadne zdjecie nie wychodzi do internetu.
 - Na telefonie skanujesz kod QR aparatem – otwiera sie strona w przegladarce.
 - Strona to progresywna aplikacja webowa (PWA) – mozna ja dodac do ekranu
   glownego telefonu i uzywac jak zwyklej apki.
-- Wybierasz zdjecia z galerii albo robisz nowe zdjecie i wysylasz – trafiaja
-  do folderu `server/uploads/RRRR-MM-DD/` na komputerze.
+- W naglowku widac **wskaznik polaczenia** (zielona kropka = polaczono z
+  komputerem, czerwona = brak polaczenia) – od razu widac, czy wysylka
+  w ogole zadziala.
+- Robisz zdjecie, **nagrywasz film** albo wybierasz pliki z galerii i
+  wysylasz – trafiaja do folderu `server/uploads/RRRR-MM-DD/` na komputerze.
 - Kazde uruchomienie serwera generuje losowy kod dostepu wbudowany w link/QR,
   wiec ktos inny w tej samej sieci WiFi (np. w kawiarni) nie wyslee ani nie
-  pobierze Twoich zdjec bez zeskanowania Twojego kodu.
+  pobierze Twoich plikow bez zeskanowania Twojego kodu.
 
 ## Uruchomienie
 
@@ -50,8 +53,8 @@ W terminalu zobaczysz cos w stylu:
 3. Otworz link – zobaczysz strone "PhotoBeam".
 4. Opcjonalnie: w menu przegladarki wybierz "Dodaj do ekranu glownego",
    zeby dzialalo jak normalna aplikacja.
-5. Nacisnij **"Zrob zdjecie"** albo **"Z galerii"**, wybierz zdjecia,
-   a nastepnie **"Wyslij zdjecia"**.
+5. Nacisnij **"Zdjecie"**, **"Nagraj film"** albo **"Z galerii"**, wybierz
+   pliki, a nastepnie **"Wyslij"**.
 
 ## Struktura projektu
 
@@ -72,8 +75,8 @@ server/
 ## Konfiguracja
 
 - Inny port: `PORT=8080 npm start`
-- Limit rozmiaru pojedynczego zdjecia: 50 MB, max 30 zdjec na raz
-  (do zmiany w `server/server.js`).
+- Limit rozmiaru pojedynczego pliku: 300 MB (filmy sa duze), max 30 plikow
+  na raz (do zmiany w `server/server.js`).
 
 ## Bezpieczenstwo
 

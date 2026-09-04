@@ -63,12 +63,12 @@ const storage = multer.diskStorage({
 
 const upload = multer({
   storage,
-  limits: { fileSize: 50 * 1024 * 1024, files: 30 }, // 50 MB / zdjecie, max 30 na raz
+  limits: { fileSize: 300 * 1024 * 1024, files: 30 }, // 300 MB / plik (filmy sa duze), max 30 na raz
   fileFilter(req, file, cb) {
-    if (file.mimetype.startsWith('image/')) {
+    if (file.mimetype.startsWith('image/') || file.mimetype.startsWith('video/')) {
       cb(null, true);
     } else {
-      cb(new Error('Dozwolone sa tylko pliki graficzne'));
+      cb(new Error('Dozwolone sa tylko zdjecia i filmy'));
     }
   },
 });
@@ -94,6 +94,12 @@ app.get('/api/info', (req, res) => {
   });
 });
 
+// Lekki endpoint do sprawdzania, czy telefon nadal ma polaczenie z komputerem
+// (uzywany przez PWA do wskaznika polaczenia w nagłowku).
+app.get('/api/ping', (req, res) => {
+  res.json({ ok: true, hostname: os.hostname() });
+});
+
 app.get('/api/qr.png', async (req, res, next) => {
   try {
     const ip = getLocalIPs()[0] || 'localhost';
@@ -105,7 +111,7 @@ app.get('/api/qr.png', async (req, res, next) => {
 });
 
 app.post('/api/upload', checkToken, (req, res) => {
-  upload.array('photos', 30)(req, res, (err) => {
+  upload.array('media', 30)(req, res, (err) => {
     if (err) {
       return res.status(400).json({ ok: false, error: err.message });
     }
@@ -128,8 +134,8 @@ app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
 app.listen(PORT, '0.0.0.0', () => {
   const ips = getLocalIPs();
 
-  console.log('\n📷  PhotoBeam - serwer odbioru zdjec uruchomiony!\n');
-  console.log(`   Zdjecia beda zapisywane w: ${UPLOAD_DIR}\n`);
+  console.log('\n📷  PhotoBeam - serwer odbioru zdjec i filmow uruchomiony!\n');
+  console.log(`   Zdjecia i filmy beda zapisywane w: ${UPLOAD_DIR}\n`);
 
   if (ips.length === 0) {
     console.log('   ⚠️  Nie wykryto adresu w sieci lokalnej.');

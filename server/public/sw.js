@@ -1,4 +1,4 @@
-const CACHE = 'photobeam-shell-v1';
+const CACHE = 'photobeam-shell-v2';
 const ASSETS = ['/', '/style.css', '/app.js', '/manifest.json', '/icons/icon.svg'];
 
 self.addEventListener('install', (event) => {
