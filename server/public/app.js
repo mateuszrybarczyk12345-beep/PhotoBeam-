@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  const TOKEN_STORAGE_KEY = 'lazania_token';
+  const TOKEN_STORAGE_KEY = 'photobeam_token';
 
   const banner = document.getElementById('status-banner');
   const queueEl = document.getElementById('queue');

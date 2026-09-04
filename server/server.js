@@ -128,7 +128,7 @@ app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
 app.listen(PORT, '0.0.0.0', () => {
   const ips = getLocalIPs();
 
-  console.log('\n📷  Serwer odbioru zdjec uruchomiony!\n');
+  console.log('\n📷  PhotoBeam - serwer odbioru zdjec uruchomiony!\n');
   console.log(`   Zdjecia beda zapisywane w: ${UPLOAD_DIR}\n`);
 
   if (ips.length === 0) {

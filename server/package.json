@@ -1,7 +1,7 @@
 {
-  "name": "lazania-photo-receiver",
+  "name": "photobeam-server",
   "version": "1.0.0",
-  "description": "Lokalny serwer + PWA do przesylania zdjec z telefonu na komputer przez WiFi",
+  "description": "PhotoBeam - lokalny serwer + PWA do przesylania zdjec z telefonu na komputer przez WiFi",
   "private": true,
   "main": "server.js",
   "scripts": {

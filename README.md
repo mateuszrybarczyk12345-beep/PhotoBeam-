@@ -1,4 +1,4 @@
-# Lazania 📷 – zdjecia z telefonu na komputer przez WiFi
+# PhotoBeam 📷 – zdjecia z telefonu na komputer przez WiFi
 
 Prosta aplikacja: telefon (dowolny – dziala jako strona/PWA w przegladarce,
 bez Google Play/App Store) wysyla zdjecia bezposrednio do lokalnego serwera
@@ -47,7 +47,7 @@ W terminalu zobaczysz cos w stylu:
 
 1. Polacz telefon z tym samym WiFi co komputer.
 2. Zeskanuj kod QR z terminala aparatem telefonu (lub wpisz adres recznie).
-3. Otworz link – zobaczysz strone "Lazania".
+3. Otworz link – zobaczysz strone "PhotoBeam".
 4. Opcjonalnie: w menu przegladarki wybierz "Dodaj do ekranu glownego",
    zeby dzialalo jak normalna aplikacja.
 5. Nacisnij **"Zrob zdjecie"** albo **"Z galerii"**, wybierz zdjecia,
