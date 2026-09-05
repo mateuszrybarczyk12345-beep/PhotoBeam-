@@ -23,7 +23,26 @@ samej sieci WiFi. Zadien plik nie wychodzi do internetu.
 
 ## Uruchomienie
 
-Wymagany [Node.js](https://nodejs.org) (wersja 18+).
+Wymagany [Node.js](https://nodejs.org) (wersja 18+) - instaluje sie jak
+zwykly program, raz.
+
+### Bez terminala (zalecane)
+
+W folderze `server/` jest gotowy plik startowy - wystarczy dwuklik:
+
+- **macOS**: `Uruchom PhotoBeam (Mac).command`
+- **Windows**: `Uruchom PhotoBeam (Windows).bat`
+
+Za pierwszym razem plik sam zainstaluje potrzebne zaleznosci (moze to
+potrwac chwile), a przy kolejnych uruchomieniach od razu odpali serwer.
+
+> macOS moze przy pierwszym uruchomieniu pokazac ostrzezenie
+> "nie mozna otworzyc, poniewaz pochodzi od niezidentyfikowanego
+> dewelopera" - kliknij plik prawym przyciskiem myszy, wybierz
+> "Otworz", a nastepnie potwierdz w oknie, ktore sie pojawi
+> (trzeba to zrobic tylko raz).
+
+### Recznie, przez terminal
 
 ```bash
 cd server
@@ -62,6 +81,8 @@ W terminalu zobaczysz cos w stylu:
 server/
   server.js          – serwer Express: odbior uploadow, QR, statyczne pliki
   package.json
+  Uruchom PhotoBeam (Mac).command       – dwuklik = start serwera (macOS)
+  Uruchom PhotoBeam (Windows).bat       – dwuklik = start serwera (Windows)
   public/             – frontend PWA
     index.html
     app.js
