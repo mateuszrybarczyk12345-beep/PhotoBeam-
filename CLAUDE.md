@@ -74,6 +74,9 @@ nie chcę powtarzać przy każdej rozmowie.
   korzystać, ale za każdym razem najpierw poproś mnie o zgodę** —
   także wtedy, gdy repozytorium jest puste albo zmiana wydaje się
   drobna. Zgoda dotyczy jednego pushu, nie wszystkich następnych.
+- Gdy zmiana ma trafić na `main`, zapytaj **zanim cokolwiek wypchniesz** —
+  nie zakładaj po drodze gałęzi roboczej „na wszelki wypadek". Puste
+  gałęzie zostają potem do posprzątania, a ja nie umiem tego zrobić.
 - Tytuł commita po angielsku, jednym zdaniem; opis pod spodem może być
   po polsku.
 - **Nie twórz pull requestów**, dopóki wyraźnie o to nie poproszę.
