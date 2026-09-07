@@ -141,3 +141,17 @@ nie chcę powtarzać przy każdej rozmowie.
   (mr3dstudio.pl), że jest darmowy i na jakiej licencji.
 - Zanim dodasz cudzą bibliotekę, sprawdź jej licencję i powiedz mi, co
   z niej wynika. Kolejny powód, żeby zależności było jak najmniej.
+
+## 11. Marka
+
+- Aplikacje **nie muszą wyglądać tak samo** — każda może mieć swój
+  charakter, dopasowany do tego, co robi.
+- Ale każda ma **reklamować mnie i mr3dstudio**, i to w samym programie,
+  nie tylko w README. Widoczna informacja o autorze tam, gdzie użytkownik
+  i tak patrzy: w stopce strony, na ekranie startowym albo w oknie
+  „o programie".
+- Odnośnik do **mr3dstudio.pl** ma być klikalny, a nie samym napisem —
+  chodzi o to, żeby ktoś tam trafił, a nie tylko przeczytał.
+- Marka nie może przeszkadzać w używaniu programu: żadnych wyskakujących
+  okien ani reklam zasłaniających treść. Dyskretna stopka obecna wszędzie
+  działa lepiej niż jedno nachalne okno.
