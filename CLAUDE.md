@@ -84,6 +84,10 @@ nie chcę powtarzać przy każdej rozmowie.
 
 ## 7. Kończenie pracy
 
+- Nie wiadomo, ile potrwa jedno posiedzenie — czasem kilka godzin, czasem
+  kilka minut. **Pracuj małymi krokami, z których każdy sam w sobie
+  działa**, i zapisuj je do repozytorium na bieżąco. Nigdy nie zostawiaj
+  projektu w połowie tak, że tylko Ty wiesz, co dalej.
 - Zanim powiesz, że gotowe — sprawdź, że to naprawdę działa.
 - Napisz krótko: co powstało, gdzie to jest i co mam zrobić dalej.
 - Jeśli czegoś nie dokończyłeś, powiedz czego i dlaczego.
