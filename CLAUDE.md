@@ -111,3 +111,18 @@ nie chcę powtarzać przy każdej rozmowie.
 - W sesji przez przeglądarkę **nic poza repozytorium nie przetrwa** —
   komputer, na którym pracujesz, znika po zakończeniu rozmowy. Pilnuj,
   żeby wszystko, co ma zostać, trafiło do repozytorium, zanim skończymy.
+
+## 10. Licencja i autorstwo
+
+- Każdy nowy projekt dostaje plik **`LICENSE`**. Nie zostawiaj
+  repozytorium bez niego — brak licencji to niejasna sytuacja dla
+  każdego, kto trafi na kod.
+- Domyślna licencja: **PolyForm Noncommercial 1.0.0**. Pozwala każdemu
+  używać, kopiować i przerabiać program **za darmo**, ale zabrania
+  zarabiania na nim.
+- Właścicielem praw autorskich jest **mr3dstudio** — w pliku i w kodzie
+  wpisuj `Copyright (c) <rok> mr3dstudio`, nie moje imię i nazwisko.
+- W `README.md` każdego projektu ma być stopka: skąd program pochodzi
+  (mr3dstudio.pl), że jest darmowy i na jakiej licencji.
+- Zanim dodasz cudzą bibliotekę, sprawdź jej licencję i powiedz mi, co
+  z niej wynika. Kolejny powód, żeby zależności było jak najmniej.
