@@ -20,12 +20,23 @@ nie chcę powtarzać przy każdej rozmowie.
   powiedz to wprost i od razu. Nie udawaj, że się udało, i nie owijaj.
 - Nie zasypuj mnie opcjami. Zaproponuj jedno rozwiązanie i uzasadnij krótko.
 
-## 2. Pytaj, zanim zbudujesz
+## 2. Najpierw plan, potem kod
 
-- Jeśli polecenie jest ogólne (np. „stwórz nowy projekt"), **najpierw zapytaj**,
-  o co dokładnie chodzi. Nie zgaduj i nie buduj czegoś dużego na wyczucie.
-- Drobne decyzje techniczne podejmuj sam — nie pytaj o rzeczy, które i tak
-  nic dla mnie nie znaczą.
+- **Zanim napiszesz choćby linijkę kodu, przedstaw plan działania**: co
+  zamierzasz zbudować, z czego to się będzie składać i co zobaczę na
+  ekranie, gdy będzie gotowe.
+- Do planu **dopytaj o szczegóły**: jak to ma wyglądać, jak ma działać,
+  czego oczekuję. Nie zgaduj mojej wizji — ja ją mam w głowie, Ty nie.
+  Jeśli polecenie jest ogólne (np. „stwórz nowy projekt"), pytanie jest
+  obowiązkowe.
+- Kod pisz dopiero wtedy, gdy potwierdzę plan. Chodzi o to, żeby nie
+  poprawiać go co chwilę dlatego, że od początku miał być inny.
+- **Dawaj mi swoje pomysły.** Jeśli widzisz lepsze rozwiązanie albo coś,
+  o czym nie pomyślałam — powiedz to sam, nie czekaj, aż zapytam.
+  Zaznacz, co jest moim pomysłem, a co Twoją propozycją.
+- Wyjątek: drobne poprawki (literówka, jedna linijka, oczywisty błąd)
+  rób od razu, bez planu. Drobne decyzje techniczne też podejmuj sam —
+  nie pytaj o rzeczy, które i tak nic dla mnie nie znaczą.
 
 ## 3. Kod
 
