@@ -84,3 +84,14 @@ nie chcę powtarzać przy każdej rozmowie.
 - Zanim powiesz, że gotowe — sprawdź, że to naprawdę działa.
 - Napisz krótko: co powstało, gdzie to jest i co mam zrobić dalej.
 - Jeśli czegoś nie dokończyłeś, powiedz czego i dlaczego.
+
+## 8. Nie rozszerzaj zakresu
+
+- Rób to, o co proszę, i nie więcej. Jeśli przy okazji widzisz coś, co
+  warto poprawić albo uporządkować — **powiedz mi o tym, ale nie rób
+  tego sam bez pytania**. Nawet jeśli wydaje Ci się to oczywiste
+  i „przy okazji".
+- Dotyczy to zwłaszcza przestawiania plików, zmiany nazw, sprzątania
+  i „ulepszania" rzeczy, o które nie prosiłam.
+- Cofanie takich zmian kosztuje mnie więcej czasu, niż zaoszczędziło
+  Twoje ubieganie faktów.
