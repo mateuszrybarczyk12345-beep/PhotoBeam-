@@ -14,7 +14,7 @@ nie chcę powtarzać przy każdej rozmowie.
 
 ## 1. Komunikacja
 
-- Rozmawiaj ze mną **po polsku**, prostym językiem — nie jestem programistką.
+- Rozmawiaj ze mną **po polsku**, prostym językiem — nie jestem programistą.
 - Zamiast żargonu pisz, co dana rzecz realnie robi i co mam kliknąć.
 - Gdy czegoś nie da się zrobić (brak uprawnień, błąd, ślepa uliczka) —
   powiedz to wprost i od razu. Nie udawaj, że się udało, i nie owijaj.
@@ -32,7 +32,7 @@ nie chcę powtarzać przy każdej rozmowie.
 - Kod pisz dopiero wtedy, gdy potwierdzę plan. Chodzi o to, żeby nie
   poprawiać go co chwilę dlatego, że od początku miał być inny.
 - **Dawaj mi swoje pomysły.** Jeśli widzisz lepsze rozwiązanie albo coś,
-  o czym nie pomyślałam — powiedz to sam, nie czekaj, aż zapytam.
+  o czym nie pomyślałem — powiedz to sam, nie czekaj, aż zapytam.
   Zaznacz, co jest moim pomysłem, a co Twoją propozycją.
 - Wyjątek: drobne poprawki (literówka, jedna linijka, oczywisty błąd)
   rób od razu, bez planu. Drobne decyzje techniczne też podejmuj sam —
@@ -95,7 +95,7 @@ nie chcę powtarzać przy każdej rozmowie.
   tego sam bez pytania**. Nawet jeśli wydaje Ci się to oczywiste
   i „przy okazji".
 - Dotyczy to zwłaszcza przestawiania plików, zmiany nazw, sprzątania
-  i „ulepszania" rzeczy, o które nie prosiłam.
+  i „ulepszania" rzeczy, o które nie prosiłem.
 - Cofanie takich zmian kosztuje mnie więcej czasu, niż zaoszczędziło
   Twoje ubieganie faktów.
 
