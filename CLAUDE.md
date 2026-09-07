@@ -56,8 +56,15 @@ nie chcę powtarzać przy każdej rozmowie.
 - Każdy projekt uruchamialny **dwuklikiem**: `Uruchom X (Mac).command`
   i `Uruchom X (Windows).bat`, które same instalują zależności za
   pierwszym razem.
+- Punktem wyjścia jest **mój** problem — program ma najpierw działać dla
+  mnie. Ale skoro trafia potem na mr3dstudio.pl, musi dać się oddać
+  obcemu człowiekowi bez tłumaczenia przez telefon: czytelny komunikat
+  błędu zamiast pustego ekranu, README pisane dla kogoś, kto widzi to
+  pierwszy raz.
 - `README.md` po polsku: co to jest, jak uruchomić krok po kroku, co
-  zobaczę na ekranie.
+  zobaczę na ekranie. Zaczynaj od **problemu, który program rozwiązuje**,
+  a nie od użytej technologii — to pierwsze zdanie decyduje, czy ktoś
+  zostanie.
 - Jeśli z aplikacji korzystam z telefonu — kod QR w terminalu, żeby nie
   przepisywać adresów.
 
