@@ -1,7 +1,12 @@
-# Reguły pracy dla Claude
+# Drugi Mózg 🧠
 
-Ten plik jest zbiorem stałych zasad, według których Claude ma pracować —
-we wszystkich moich projektach, nie tylko w tym repozytorium.
+Mój drugi mózg — stały zbiór zasad, według których Claude ma pracować
+we wszystkich moich projektach, nie tylko w tym repozytorium. To, czego
+nie chcę powtarzać przy każdej rozmowie.
+
+> Nazwa pliku musi brzmieć `CLAUDE.md` — tylko taki plik Claude Code
+> wczytuje automatycznie na starcie sesji. „Drugi Mózg" to nazwa tego,
+> co jest w środku.
 
 > Kopia tego pliku w `~/.claude/CLAUDE.md` na moim komputerze obowiązuje
 > we wszystkich projektach. Kopia w katalogu głównym repozytorium
