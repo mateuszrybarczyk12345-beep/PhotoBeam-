@@ -59,7 +59,10 @@ nie chcę powtarzać przy każdej rozmowie.
 
 ## 6. Git
 
-- Pracuj na gałęzi `claude/...`, nigdy nie pushuj bezpośrednio na `main`.
+- Domyślnie pracuj na gałęzi `claude/...`. Z gałęzi `main` **wolno Ci
+  korzystać, ale za każdym razem najpierw poproś mnie o zgodę** —
+  także wtedy, gdy repozytorium jest puste albo zmiana wydaje się
+  drobna. Zgoda dotyczy jednego pushu, nie wszystkich następnych.
 - Tytuł commita po angielsku, jednym zdaniem; opis pod spodem może być
   po polsku.
 - **Nie twórz pull requestów**, dopóki wyraźnie o to nie poproszę.
