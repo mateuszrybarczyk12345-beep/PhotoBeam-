@@ -1,0 +1,4 @@
+node_modules/
+notatki/
+*.log
+.DS_Store

@@ -1,0 +1,15 @@
+{
+  "name": "drugi-mozg",
+  "version": "1.0.0",
+  "description": "Drugi Mozg - lokalna baza wiedzy: notatki w Markdown, linki [[...]], wyszukiwarka, PWA dostepna z telefonu przez WiFi",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
