@@ -106,3 +106,18 @@ adresie chroni przed przypadkowym/losowym dostepem w tej samej sieci, ale
 nie zastepuje pelnego uwierzytelniania – nie wystawiaj tego serwera poza
 lokalna siec (np. przez przekierowanie portow na routerze) bez dodatkowych
 zabezpieczen.
+
+## Licencja
+
+PhotoBeam jest **darmowy**, a jego kod dostepny publicznie na licencji
+[PolyForm Noncommercial 1.0.0](LICENSE). Kazdy moze go uzywac, kopiowac
+i przerabiac do celow **niekomercyjnych** - prywatnie, w szkole, w
+organizacji spolecznej. **Zarabianie na tym programie jest zastrzezone
+dla autora.**
+
+Copyright (c) 2026 Mateusz Rybarczyk (mr3dstudio)
+
+---
+
+Program powstal w **mr3dstudio** - druk 3D na zamowienie i darmowe
+aplikacje. Wiecej na [mr3dstudio.pl](https://mr3dstudio.pl).
