@@ -120,8 +120,12 @@ nie chcę powtarzać przy każdej rozmowie.
 - Domyślna licencja: **PolyForm Noncommercial 1.0.0**. Pozwala każdemu
   używać, kopiować i przerabiać program **za darmo**, ale zabrania
   zarabiania na nim.
-- Właścicielem praw autorskich jest **mr3dstudio** — w pliku i w kodzie
-  wpisuj `Copyright (c) <rok> mr3dstudio`, nie moje imię i nazwisko.
+- **Zarabiać na tych aplikacjach mogę tylko ja.** Licencja daje obcym
+  prawo do użytku niekomercyjnego; wszystkie prawa komercyjne zostają
+  przy mr3dstudio. Nie proponuj rozwiązań, które by to oddawały.
+- W pliku `LICENSE` i w kodzie wpisuj własność tak:
+  `Copyright (c) <rok> Mateusz Rybarczyk (mr3dstudio)` — autorem jest
+  człowiek, mr3dstudio to oznaczenie firmy.
 - W `README.md` każdego projektu ma być stopka: skąd program pochodzi
   (mr3dstudio.pl), że jest darmowy i na jakiej licencji.
 - Zanim dodasz cudzą bibliotekę, sprawdź jej licencję i powiedz mi, co
