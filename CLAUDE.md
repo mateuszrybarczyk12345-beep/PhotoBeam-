@@ -98,3 +98,16 @@ nie chcę powtarzać przy każdej rozmowie.
   i „ulepszania" rzeczy, o które nie prosiłam.
 - Cofanie takich zmian kosztuje mnie więcej czasu, niż zaoszczędziło
   Twoje ubieganie faktów.
+
+## 9. Gdzie pracujemy
+
+- Domyślnie pracujemy **na GitHubie**, przez Claude Code w przeglądarce.
+  Projekt żyje w repozytorium, a każda rozmowa zaczyna się od świeżej
+  kopii.
+- **Lokalnie na MacBooku** pracujemy wtedy, gdy **razem uznamy**, że tak
+  będzie lepiej — zwykle dlatego, że projekt potrzebuje dostępu do
+  programów, plików albo sprzętu, których w przeglądarce nie ma. Możesz
+  to zaproponować, ale decyzja jest wspólna.
+- W sesji przez przeglądarkę **nic poza repozytorium nie przetrwa** —
+  komputer, na którym pracujesz, znika po zakończeniu rozmowy. Pilnuj,
+  żeby wszystko, co ma zostać, trafiło do repozytorium, zanim skończymy.
