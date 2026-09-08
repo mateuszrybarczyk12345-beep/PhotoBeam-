@@ -141,6 +141,11 @@ nie chcę powtarzać przy każdej rozmowie.
   (mr3dstudio.pl), że jest darmowy i na jakiej licencji.
 - Zanim dodasz cudzą bibliotekę, sprawdź jej licencję i powiedz mi, co
   z niej wynika. Kolejny powód, żeby zależności było jak najmniej.
+- Jeśli jakaś aplikacja ma zawierać funkcję opartą o AI (rozpoznawanie
+  czegoś na zdjęciu, generowanie treści, chatbota) — powiedz mi o tym
+  wprost, zanim zaczniesz, i przypomnij o unijnym **AI Act**. Zwykle
+  wystarczy jasno napisać w interfejsie, że dana funkcja korzysta z AI;
+  to nie jest porada prawna, tylko przypomnienie, żeby o tym pomyśleć.
 
 ## 11. Marka
 
